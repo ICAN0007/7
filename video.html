@@ -1,0 +1,153 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Hamburger Menu -->
+  <nav class="bg-blue-900 text-white p-4 fixed w-full top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Creator Platform</h1>
+      <button id="hamburger" class="text-white md:hidden">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+      <ul id="nav-menu" class="hidden md:flex md:space-x-6">
+        <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
+        <li><a href="index.html#categories" class="hover:text-blue-300">Categories</a></li>
+        <li><a href="index.html#hashtags" class="hover:text-blue-300">Hashtags</a></li>
+        <li><a href="privacy.html" class="hover:text-blue-300">Privacy Policy</a></li>
+        <li><a href="terms.html" class="hover:text-blue-300">Terms & Conditions</a></li>
+      </ul>
+    </div>
+    <ul id="mobile-menu" class="hidden bg-blue-800 text-white p-4">
+      <li><a href="index.html" class="block py-2 hover:text-blue-300">Home</a></li>
+      <li><a href="index.html#categories" class="block py-2 hover:text-blue-300">Categories</a></li>
+      <li><a href="index.html#hashtags" class="block py-2 hover:text-blue-300">Hashtags</a></li>
+      <li><a href="privacy.html" class="block py-2 hover:text-blue-300">Privacy Policy</a></li>
+      <li><a href="terms.html" class="block py-2 hover:text-blue-300">Terms & Conditions</a></li>
+    </ul>
+  </nav>
+
+  <!-- Video Content -->
+  <section class="pt-20 pb-10">
+    <div class="container mx-auto px-4">
+      <div id="video-content" class="bg-white rounded-lg shadow-md p-6">
+        <h2 id="video-title" class="text-2xl font-bold mb-4"></h2>
+        <video id="video-player" controls class="w-full h-96 mb-4"></video>
+        <div class="mb-4">
+          <p><strong>Views:</strong> <span id="video-views"></span></p>
+          <p><strong>Categories:</strong> <span id="video-categories"></span></p>
+          <p><strong>Hashtags:</strong> <span id="video-hashtags"></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Videos -->
+  <section class="py-10">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6">Related Videos</h2>
+      <div id="related-videos" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p>© 2025 Creator Platform. All rights reserved.</p>
+      <div class="mt-2">
+        <a href="privacy.html" class="hover:text-blue-300 mx-2">Privacy Policy</a>
+        <a href="terms.html" class="hover:text-blue-300 mx-2">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="videos.js"></script>
+  <script>
+    // Hamburger Menu Toggle
+    document.getElementById('hamburger').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Get Video ID from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const videoId = parseInt(urlParams.get('id'));
+    const video = videos[videoId];
+
+    // Display Video Details
+    if (video) {
+      document.getElementById('video-title').textContent = video.title;
+      document.getElementById('video-player').src = video.url;
+      document.getElementById('video-views').textContent = video.views;
+      document.getElementById('video-categories').innerHTML = video.categories.map(cat => 
+        `<a href="#" onclick="window.location='index.html?category=${cat}'" class="text-blue-600 hover:underline">${cat}</a>`
+      ).join(', ');
+      document.getElementById('video-hashtags').innerHTML = video.hashtags.map(tag => 
+        `<a href="#" onclick="window.location='index.html?hashtag=${tag}'" class="text-blue-600 hover:underline">#${tag}</a>`
+      ).join(', ');
+    }
+
+    // Display Related Videos
+    const relatedVideos = videos.filter(v => v !== video && (v.categories.some(cat => video.categories.includes(cat)) || v.hashtags.some(tag => video.hashtags.includes(tag)))).slice(0, 6);
+    const relatedVideosDiv = document.getElementById('related-videos');
+    relatedVideos.forEach((v, index) => {
+      const videoCard = document.createElement('div');
+      videoCard.className = 'relative bg-white rounded-lg shadow-md overflow-hidden';
+      videoCard.innerHTML = `
+        <a href="video.html?id=${videos.indexOf(v)}">
+          <img src="${v.thumbnail}" alt="${v.title}" class="w-full h-48 object-cover">
+          <div class="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white text-sm px-2 py-1 rounded">${v.views}</div>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">${v.title}</h3>
+          </div>
+        </a>
+      `;
+      relatedVideosDiv.appendChild(videoCard);
+    });
+  </script>
+</body>
+</html>
