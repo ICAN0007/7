@@ -51,9 +51,12 @@
   <nav class="bg-blue-900 text-white p-4 fixed w-full top-0 z-50">
     <div class="container mx-auto flex justify-between items-center">
       <h1 class="text-2xl font-bold">Creator Platform</h1>
-      <button id="hamburger" class="text-white md:hidden">
-        <i class="fas fa-bars text-2xl"></i>
-      </button>
+      <div class="flex items-center space-x-4">
+        <a href="index.html" class="text-white text-2xl"><i class="fas fa-home"></i></a>
+        <button id="hamburger" class="text-white md:hidden">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
       <ul id="nav-menu" class="hidden md:flex md:space-x-6">
         <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
         <li><a href="index.html#categories" class="hover:text-blue-300">Categories</a></li>
@@ -92,7 +95,7 @@
       <h2 class="text-3xl font-bold mb-6">Related Videos</h2>
       <div id="related-videos" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
       <div class="flex justify-center mt-6">
-        <button id="show-more" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 hidden">Show More</button>
+        <button id="show-more" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Show More</button>
       </div>
     </div>
   </section>
@@ -121,65 +124,55 @@
     const videoId = parseInt(urlParams.get('id'));
     const video = videos[videoId];
 
-    // Track displayed related videos
-    let displayedRelatedVideos = [];
-
     // Display Video Details
     if (video) {
       document.getElementById('video-title').textContent = video.title;
       document.getElementById('video-player').src = video.url;
       document.getElementById('video-views').textContent = video.views;
       document.getElementById('video-categories').innerHTML = video.categories.map(cat => 
-        `<a href="#" onclick="window.location='index.html?category=${cat}'" class="text-blue-600 hover:underline">${cat}</a>`
+        `<a href="index.html?category=${cat}" class="text-blue-600 hover:underline">${cat}</a>`
       ).join(', ');
       document.getElementById('video-hashtags').innerHTML = video.hashtags.map(tag => 
-        `<a href="#" onclick="window.location='index.html?hashtag=${tag}'" class="text-blue-600 hover:underline">#${tag}</a>`
+        `<a href="index.html?hashtag=${tag}" class="text-blue-600 hover:underline">#${tag}</a>`
       ).join(', ');
     }
 
     // Display Related Videos
-    function displayRelatedVideos(startIndex, count) {
-      const relatedVideosDiv = document.getElementById('related-videos');
-      if (startIndex === 0) relatedVideosDiv.innerHTML = ''; // Clear only on initial load
-      const relatedVideos = videos
-        .filter(v => v !== video && (v.categories.some(cat => video.categories.includes(cat)) || v.hashtags.some(tag => video.hashtags.includes(tag))))
-        .filter(v => !displayedRelatedVideos.includes(videos.indexOf(v)))
-        .slice(startIndex, startIndex + count);
-      
-      relatedVideos.forEach(v => {
-        const videoCard = document.createElement('div');
-        videoCard.className = 'relative bg-white rounded-lg shadow-md overflow-hidden';
-        videoCard.innerHTML = `
-          <a href="video.html?id=${videos.indexOf(v)}">
-            <img src="${v.thumbnail}" alt="${v.title}" class="w-full h-48 object-cover">
-            <div class="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white text-sm px-2 py-1 rounded">${v.views}</div>
-            <div class="p-4">
-              <h3 class="text-lg font-semibold">${v.title}</h3>
-            </div>
-          </a>
-        `;
-        relatedVideosDiv.appendChild(videoCard);
-        displayedRelatedVideos.push(videos.indexOf(v));
-      });
+    const relatedVideos = videos
+      .filter(v => v !== video && (v.categories.some(cat => video.categories.includes(cat)) || v.hashtags.some(tag => video.hashtags.includes(tag))))
+      .slice(0, 6);
+    const relatedVideosDiv = document.getElementById('related-videos');
+    relatedVideos.forEach(v => {
+      const videoCard = document.createElement('div');
+      videoCard.className = 'relative bg-white rounded-lg shadow-md overflow-hidden';
+      videoCard.innerHTML = `
+        <a href="video.html?id=${videos.indexOf(v)}">
+          <img src="${v.thumbnail}" alt="${v.title}" class="w-full h-48 object-cover">
+          <div class="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white text-sm px-2 py-1 rounded">${v.views}</div>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">${v.title}</h3>
+          </div>
+        </a>
+      `;
+      relatedVideosDiv.appendChild(videoCard);
+    });
 
-      // Show or hide "Show More" button
-      const showMoreButton = document.getElementById('show-more');
-      const remainingVideos = videos
-        .filter(v => v !== video && (v.categories.some(cat => video.categories.includes(cat)) || v.hashtags.some(tag => video.hashtags.includes(tag))))
-        .filter(v => !displayedRelatedVideos.includes(videos.indexOf(v)));
-      if (remainingVideos.length > 0) {
-        showMoreButton.classList.remove('hidden');
-      } else {
-        showMoreButton.classList.add('hidden');
-      }
-    }
-
-    // Initial Related Videos
-    displayRelatedVideos(0, 6);
-
-    // Show More Button
+    // Show More Button Redirect
     document.getElementById('show-more').addEventListener('click', () => {
-      displayRelatedVideos(displayedRelatedVideos.length, 6);
+      const referrer = document.referrer;
+      let redirectUrl = 'index.html';
+      if (referrer) {
+        const url = new URL(referrer);
+        const params = url.searchParams;
+        const category = params.get('category');
+        const hashtag = params.get('hashtag');
+        if (category) {
+          redirectUrl = `index.html?category=${encodeURIComponent(category)}`;
+        } else if (hashtag) {
+          redirectUrl = `index.html?hashtag=${encodeURIComponent(hashtag)}`;
+        }
+      }
+      window.location.href = redirectUrl;
     });
   </script>
 </body>
