@@ -91,6 +91,9 @@
     <div class="container mx-auto px-4">
       <h2 class="text-3xl font-bold mb-6">Related Videos</h2>
       <div id="related-videos" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+      <div class="flex justify-center mt-6">
+        <button id="show-more" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 hidden">Show More</button>
+      </div>
     </div>
   </section>
 
@@ -118,6 +121,9 @@
     const videoId = parseInt(urlParams.get('id'));
     const video = videos[videoId];
 
+    // Track displayed related videos
+    let displayedRelatedVideos = [];
+
     // Display Video Details
     if (video) {
       document.getElementById('video-title').textContent = video.title;
@@ -132,21 +138,48 @@
     }
 
     // Display Related Videos
-    const relatedVideos = videos.filter(v => v !== video && (v.categories.some(cat => video.categories.includes(cat)) || v.hashtags.some(tag => video.hashtags.includes(tag)))).slice(0, 6);
-    const relatedVideosDiv = document.getElementById('related-videos');
-    relatedVideos.forEach((v, index) => {
-      const videoCard = document.createElement('div');
-      videoCard.className = 'relative bg-white rounded-lg shadow-md overflow-hidden';
-      videoCard.innerHTML = `
-        <a href="video.html?id=${videos.indexOf(v)}">
-          <img src="${v.thumbnail}" alt="${v.title}" class="w-full h-48 object-cover">
-          <div class="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white text-sm px-2 py-1 rounded">${v.views}</div>
-          <div class="p-4">
-            <h3 class="text-lg font-semibold">${v.title}</h3>
-          </div>
-        </a>
-      `;
-      relatedVideosDiv.appendChild(videoCard);
+    function displayRelatedVideos(startIndex, count) {
+      const relatedVideosDiv = document.getElementById('related-videos');
+      if (startIndex === 0) relatedVideosDiv.innerHTML = ''; // Clear only on initial load
+      const relatedVideos = videos
+        .filter(v => v !== video && (v.categories.some(cat => video.categories.includes(cat)) || v.hashtags.some(tag => video.hashtags.includes(tag))))
+        .filter(v => !displayedRelatedVideos.includes(videos.indexOf(v)))
+        .slice(startIndex, startIndex + count);
+      
+      relatedVideos.forEach(v => {
+        const videoCard = document.createElement('div');
+        videoCard.className = 'relative bg-white rounded-lg shadow-md overflow-hidden';
+        videoCard.innerHTML = `
+          <a href="video.html?id=${videos.indexOf(v)}">
+            <img src="${v.thumbnail}" alt="${v.title}" class="w-full h-48 object-cover">
+            <div class="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white text-sm px-2 py-1 rounded">${v.views}</div>
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">${v.title}</h3>
+            </div>
+          </a>
+        `;
+        relatedVideosDiv.appendChild(videoCard);
+        displayedRelatedVideos.push(videos.indexOf(v));
+      });
+
+      // Show or hide "Show More" button
+      const showMoreButton = document.getElementById('show-more');
+      const remainingVideos = videos
+        .filter(v => v !== video && (v.categories.some(cat => video.categories.includes(cat)) || v.hashtags.some(tag => video.hashtags.includes(tag))))
+        .filter(v => !displayedRelatedVideos.includes(videos.indexOf(v)));
+      if (remainingVideos.length > 0) {
+        showMoreButton.classList.remove('hidden');
+      } else {
+        showMoreButton.classList.add('hidden');
+      }
+    }
+
+    // Initial Related Videos
+    displayRelatedVideos(0, 6);
+
+    // Show More Button
+    document.getElementById('show-more').addEventListener('click', () => {
+      displayRelatedVideos(displayedRelatedVideos.length, 6);
     });
   </script>
 </body>
