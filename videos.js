@@ -5,7 +5,7 @@ const videos = [
     thumbnail: "https://files.catbox.moe/zvxnjr.jpg",
     categories: ["Indian","Desi"],
     hashtags: ["DesiSeduction", "Nudebath" , "HotIndianGirl", "IndianErotica", "RawDesiHeat", "SensualVibes", "DesiAdult", "MasturbationClip", "SpicyDesi", "IntimateMoments","NudeBath"],
-    views: "5.2k"
+    views: "6.2k"
   },
   {
     title: "Hot Indian Desi Girl Nude Shower in Bath  💦🔥",
@@ -13,7 +13,7 @@ const videos = [
     thumbnail: "https://files.catbox.moe/ah5m5l.jpg",
     categories: ["Indian","Desi"],
     hashtags: ["DesiSeduction", "HotIndianGirl", "IndianErotica", "RawDesiHeat", "SensualVibes", "DesiAdult", "MasturbationClip", "SpicyDesi", "IntimateMoments","NudeBath"],
-    views: "5.2k"
+    views: "3.2k"
   },
   {
     title: "Hot Indian Girl Fingers Herself Until She Leaks – Raw & Real! 💦🔥",
