@@ -107,7 +107,7 @@ const videos = [
     title: "Sexy Indian Girl’s Midnight Strip – Slow, Hot & Teasing! 🌙🔥",
     url: "https://files.catbox.moe/1rly39.mp4",
     thumbnail: "https://files.catbox.moe/ux75hu.png",
-    categories: ["asian"],
+    categories: ["Asian"],
     hashtags: ["MidnightStrip", "SexyIndianGirl", "SlowTease", "DesiSeduction"],
     views: "4.2k"
   },
