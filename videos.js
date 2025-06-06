@@ -3,16 +3,16 @@ const videos = [
     title: "Hot Indian Desi Girl Nude Shower in Bath  💦🔥",
     url: "https://files.catbox.moe/4w9sn0.mp4",
     thumbnail: "https://files.catbox.moe/zvxnjr.jpg",
-    categories: ["Indian","Desi"],
-    hashtags: ["DesiSeduction", "Nudebath" , "HotIndianGirl", "IndianErotica", "RawDesiHeat", "SensualVibes", "DesiAdult", "MasturbationClip", "SpicyDesi", "IntimateMoments","NudeBath"],
+    categories: ["Indian", "Desi"],
+    hashtags: ["DesiShower", "HotIndianGirl", "NudeBath", "SensualDesi"],
     views: "6.2k"
   },
   {
     title: "Hot Indian Desi Girl Nude Shower in Bath  💦🔥",
     url: "https://files.catbox.moe/596klz.mp4",
     thumbnail: "https://files.catbox.moe/ah5m5l.jpg",
-    categories: ["Indian","Desi"],
-    hashtags: ["DesiSeduction", "HotIndianGirl", "IndianErotica", "RawDesiHeat", "SensualVibes", "DesiAdult", "MasturbationClip", "SpicyDesi", "IntimateMoments","NudeBath"],
+    categories: ["Indian", "Desi"],
+    hashtags: ["DesiShower", "NudeBath", "HotDesi", "IndianErotica"],
     views: "3.2k"
   },
   {
@@ -20,7 +20,7 @@ const videos = [
     url: "https://files.catbox.moe/1k2e9c.mp4",
     thumbnail: "https://files.catbox.moe/0b18xx.png",
     categories: ["Indian"],
-    hashtags: ["DesiSeduction", "HotIndianGirl", "IndianErotica", "RawDesiHeat", "SensualVibes", "DesiAdult", "MasturbationClip", "SpicyDesi", "IntimateMoments"],
+    hashtags: ["HotIndianGirl", "SoloPlay", "RawDesi", "SensualVibes"],
     views: "5.2k"
   },
   {
@@ -28,7 +28,7 @@ const videos = [
     url: "https://files.catbox.moe/aalfkm.mp4",
     thumbnail: "https://files.catbox.moe/fgvoc7.png",
     categories: ["Indian"],
-    hashtags: ["DesiStriptease", "SareeToNude", "BhabhiReveal", "IndianFlirt", "SeductiveDesi", "HotUndressing", "DesiBeauty", "IndianBedroom", "FlirtyBhabhi"],
+    hashtags: ["DesiStriptease", "SareeToNude", "BhabhiReveal", "IndianSeduction"],
     views: "4.8k"
   },
   {
@@ -36,7 +36,7 @@ const videos = [
     url: "https://files.catbox.moe/0bdccn.mp4",
     thumbnail: "https://files.catbox.moe/cmnn8l.png",
     categories: ["Indian"],
-    hashtags: ["WorkToPlay", "DesiOfficeGirl", "BhabhiUncovered", "AfterWorkStrip", "DesiLust", "OfficeSeduction", "DesiNaughty", "BhabhiSecrets", "IndianSensuality"],
+    hashtags: ["AfterWorkStrip", "DesiBhabhi", "OfficeToNude", "IndianLust"],
     views: "6.1k"
   },
   {
@@ -44,7 +44,7 @@ const videos = [
     url: "https://files.catbox.moe/2n8v4v.mp4",
     thumbnail: "https://files.catbox.moe/mo5mqz.png",
     categories: ["Indian"],
-    hashtags: ["PrivateDesiFun", "BhabhiIntimacy", "SecretDesire", "IndianFantasy", "DesiHeat", "SensualPleasure", "NaughtyBhabhi", "RealDesiVibes", "DesiErotic"],
+    hashtags: ["SecretPleasure", "DesiBhabhi", "HotPassion", "IndianErotica"],
     views: "3.9k"
   },
   {
@@ -52,7 +52,7 @@ const videos = [
     url: "https://files.catbox.moe/3tcbz7.mp4",
     thumbnail: "https://files.catbox.moe/8r4s6e.png",
     categories: ["Indian"],
-    hashtags: ["DesiShowerFun", "BhabhiWetAndWild", "IndianSexy", "ShowerPleasure", "DesiLust", "WetBhabhi", "IndianErotica", "HomeMadeClip", "NaughtyBhabhi"],
+    hashtags: ["DesiShower", "NaughtyBhabhi", "WetAndWild", "IndianSeduction"],
     views: "7.3k"
   },
   {
@@ -60,7 +60,7 @@ const videos = [
     url: "https://files.catbox.moe/gvy5p7.mp4",
     thumbnail: "https://files.catbox.moe/y0bg85.png",
     categories: ["Indian"],
-    hashtags: ["LateNightDesi", "SecretDesire", "BhabhiNaughty", "IndianErotica", "DesiPleasure", "RawIndianSex", "HomeMadeClip", "HornyBhabhi", "SensualDesi"],
+    hashtags: ["LateNightDesi", "SecretDesire", "BhabhiPlay", "RawLust"],
     views: "4.5k"
   },
   {
@@ -68,7 +68,7 @@ const videos = [
     url: "https://files.catbox.moe/ec0kn1.mp4",
     thumbnail: "https://files.catbox.moe/777slr.png",
     categories: ["Indian"],
-    hashtags: ["MorningTease", "DesiBhabhi", "SteamyStart", "IndianSeduction", "BhabhiLust", "DesiErotica", "HotAndHorny", "HomeMadeClip", "SensualDesi"],
+    hashtags: ["MorningTease", "DesiBhabhi", "SteamyDesi", "IndianSeduction"],
     views: "5.6k"
   },
   {
@@ -76,7 +76,7 @@ const videos = [
     url: "https://files.catbox.moe/7ysqg9.mp4",
     thumbnail: "https://files.catbox.moe/f8s0ln.png",
     categories: ["Indian"],
-    hashtags: ["NighttimeDesi", "BhabhiFantasy", "SultryDesi", "IndianSeduction", "DesiErotica", "HornyBhabhi", "SensualVibes", "HomeMadeClip", "DesiLust"],
+    hashtags: ["NighttimeDesi", "BhabhiFantasy", "SultrySeduction", "DesiErotica"],
     views: "3.7k"
   },
   {
@@ -84,7 +84,7 @@ const videos = [
     url: "https://files.catbox.moe/pq49y6.mp4",
     thumbnail: "https://files.catbox.moe/tviufy.png",
     categories: ["Indian"],
-    hashtags: ["SexyDesiGirl", "SoloPlay", "IndianNights", "TemptingDesi", "CurvyBabe", "BedroomFun", "HomeMadeClip", "RealDesiVibes", "DesiErotica"],
+    hashtags: ["SexyDesiGirl", "SoloPlay", "BedroomFun", "DesiTemptation"],
     views: "6.4k"
   },
   {
@@ -92,7 +92,7 @@ const videos = [
     url: "https://files.catbox.moe/n23dmt.mp4",
     thumbnail: "https://files.catbox.moe/pbnr69.png",
     categories: ["Indian"],
-    hashtags: ["PillowRide", "HornyDesi", "BhabhiVibes", "IndianSoloPlay", "DesiPleasure", "RawLust", "HomeMadeClip", "SensualBhabhi", "WetAndWild"],
+    hashtags: ["PillowRide", "HornyBhabhi", "WetAndWild", "DesiSolo"],
     views: "5.9k"
   },
   {
@@ -100,7 +100,7 @@ const videos = [
     url: "https://files.catbox.moe/1rly39.mp4",
     thumbnail: "https://files.catbox.moe/ux75hu.png",
     categories: ["asian"],
-    hashtags: ["MidnightTease", "SexyIndianGirl", "Striptease", "IndianNights", "DesiHeat", "SlowSeduction", "HomeMadeClip", "RealDesiBabe", "BedroomFantasy"],
+    hashtags: ["MidnightStrip", "SexyIndianGirl", "SlowTease", "DesiSeduction"],
     views: "4.2k"
   },
   {
@@ -108,7 +108,7 @@ const videos = [
     url: "https://files.catbox.moe/pzj4ht.mp4",
     thumbnail: "https://files.catbox.moe/dw9atj.png",
     categories: ["Indian"],
-    hashtags: ["HiddenCam", "DesiBhabhi", "PrivatePlay", "NaughtyMoments", "IndianVoyeur", "HomeMadeClip", "BhabhiLust", "SecretPleasure", "RealDesiFun"],
+    hashtags: ["HiddenCam", "DesiBhabhi", "NaughtyPlay", "SecretPleasure"],
     views: "6.8k"
   },
   {
@@ -116,7 +116,7 @@ const videos = [
     url: "https://files.catbox.moe/vuxja3.mp4",
     thumbnail: "https://files.catbox.moe/lo56vy.png",
     categories: ["Indian"],
-    hashtags: ["BathroomTease", "HotDesiGirl", "SoapySeduction", "DesiShowerFun", "NaughtyVibes", "IndianBeauty", "HomeMadeClip", "CurvyDesi", "SteamyBabe"],
+    hashtags: ["BathroomTease", "HotDesiGirl", "SoapySeduction", "DesiCurves"],
     views: "5.1k"
   },
   {
@@ -124,7 +124,7 @@ const videos = [
     url: "https://files.catbox.moe/hxh25x.mp4",
     thumbnail: "https://files.catbox.moe/rsjwfr.png",
     categories: ["Indian"],
-    hashtags: ["SlowStrip", "SexyBhabhi", "DesiNude", "IndianTease", "FullReveal", "HomeMadeClip", "BhabhiUncovered", "SensualDesi", "NaughtyVibes"],
+    hashtags: ["SlowStrip", "SexyBhabhi", "FullNude", "DesiTease"],
     views: "7.0k"
   },
   {
@@ -132,7 +132,7 @@ const videos = [
     url: "https://files.catbox.moe/svx2gx.mp4",
     thumbnail: "https://files.catbox.moe/i0cnkm.png",
     categories: ["Indian"],
-    hashtags: ["IndianBeauty", "HotDesiGirl", "CurveShow", "RealSeduction", "DesiNudes", "UnfilteredDesi", "SpicyClip", "HomeMadeVideo", "IndianErotica"],
+    hashtags: ["HotIndianGirl", "CurveShow", "RawSeduction", "DesiErotica"],
     views: "4.9k"
   },
   {
@@ -140,7 +140,7 @@ const videos = [
     url: "https://files.catbox.moe/ec0kn1.mp4",
     thumbnail: "https://files.catbox.moe/uy7gp8.png",
     categories: ["Indian"],
-    hashtags: ["MorningTease", "DesiBhabhi", "SensualStart", "IndianSeduction", "PlayfulDesi", "HornyBhabhi", "HomeMadeClip", "DesiErotica", "BedroomFun"],
+    hashtags: ["MorningTease", "DesiBhabhi", "SensualPlay", "IndianStart"],
     views: "5.4k"
   },
   {
@@ -148,7 +148,7 @@ const videos = [
     url: "https://files.catbox.moe/n23dmt.mp4",
     thumbnail: "https://files.catbox.moe/xi25rg.png",
     categories: ["Indian"],
-    hashtags: ["PillowRide", "HornyDesi", "BhabhiVibes", "IndianSoloPlay", "DesiPleasure", "RawLust", "HomeMadeClip", "SensualBhabhi", "WetAndWild"],
+    hashtags: ["PillowRide", "HornyBhabhi", "WetAndWild", "DesiLust"],
     views: "6.3k"
   },
   {
@@ -156,7 +156,7 @@ const videos = [
     url: "https://files.catbox.moe/jr22gd.mp4",
     thumbnail: "https://files.catbox.moe/wzzrg8.png",
     categories: ["Indian"],
-    hashtags: ["DesiDance", "SexyGirl", "BedroomTease", "IndianTemptation", "HotMoves", "DesiSeduction", "HomeMadeClip", "SensualVibes", "NaughtyDesi"],
+    hashtags: ["DesiDance", "BedroomTease", "SexyDesi", "IndianTemptation"],
     views: "4.6k"
   },
   {
@@ -164,7 +164,7 @@ const videos = [
     url: "https://files.catbox.moe/ky8p68.mp4",
     thumbnail: "https://files.catbox.moe/dk5jir.png",
     categories: ["Indian"],
-    hashtags: ["DesiBhabhi", "Striptease", "SensualUndressing", "IndianBeauty", "SlowTease", "HotBhabhi", "HomeMadeClip", "SeductiveDesi", "IntimateMoments"],
+    hashtags: ["SecretStrip", "DesiBhabhi", "SlowTease", "SensualUndress"],
     views: "5.8k"
   },
   {
@@ -172,7 +172,7 @@ const videos = [
     url: "https://files.catbox.moe/o9xkq4.mp4",
     thumbnail: "https://files.catbox.moe/dgnlu3.png",
     categories: ["Indian"],
-    hashtags: ["HotIndianGirl", "BedroomSecrets", "RawDesire", "IndianSeduction", "DesiErotica", "NaughtyVibes", "HomeMadeClip", "RealDesiBeauty", "SensualNight"],
+    hashtags: ["HotIndianGirl", "BedroomSecrets", "RawDesire", "DesiSeduction"],
     views: "6.0k"
   },
   {
@@ -180,7 +180,7 @@ const videos = [
     url: "https://files.catbox.moe/vfuqel.mp4",
     thumbnail: "https://files.catbox.moe/alqzo8.png",
     categories: ["Indian"],
-    hashtags: ["SareeSeduction", "DesiGirl", "TraditionalToNaughty", "IndianTease", "HotTransformation", "DesiErotica", "HomeMadeClip", "SensualDesi", "BhabhiFantasy"],
+    hashtags: ["SareeSeduction", "DesiGirl", "WildTease", "IndianTemptation"],
     views: "5.3k"
   },
   {
@@ -188,7 +188,7 @@ const videos = [
     url: "https://files.catbox.moe/9iz6cq.mp4",
     thumbnail: "https://files.catbox.moe/ik094o.jpg",
     categories: ["Indian"],
-    hashtags: ["HornyBhabhi", "DesiMasturbation", "RealPleasure", "IndianLust", "BhabhiVibes", "HomeMadeClip", "DesiNights", "SoloPlay", "CaughtOnCam"],
+    hashtags: ["HornyBhabhi", "DesiSolo", "RawLust", "CaughtOnCam"],
     views: "6.5k"
   },
   {
@@ -196,7 +196,7 @@ const videos = [
     url: "https://files.catbox.moe/2bkwki.mp4",
     thumbnail: "https://files.catbox.moe/mqby2g.png",
     categories: ["Indian"],
-    hashtags: ["BathTease", "WetDesi", "NakedBliss", "IndianGirl", "ShowerSeduction", "SteamyStrip", "DesiErotica", "HomeMadeClip", "SensualBabe"],
+    hashtags: ["BathStrip", "WetDesi", "NakedBliss", "ShowerTease"],
     views: "4.7k"
   },
   {
@@ -204,7 +204,7 @@ const videos = [
     url: "https://files.catbox.moe/ty47yy.mp4",
     thumbnail: "https://files.catbox.moe/j0npcl.png",
     categories: ["Indian"],
-    hashtags: ["DesiUndress", "FullNudeReveal", "IndianGirl", "SoloTease", "DesiSeduction", "HomeMadeClip", "HotStrip", "NaughtyDesi", "PrivateShow"],
+    hashtags: ["SlowUndress", "DesiGirl", "FullNude", "IndianTease"],
     views: "5.5k"
   }
 ];
