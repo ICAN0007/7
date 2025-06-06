@@ -2,6 +2,14 @@ const videos = [
   {
     title: "Hot Indian Desi Girl Nude Shower in Bath  💦🔥",
     url: "https://files.catbox.moe/4w9sn0.mp4",
+    thumbnail: "https://files.catbox.moe/2i15za.jpg",
+    categories: ["Indian", "Desi"],
+    hashtags: ["DesiShower", "HotIndianGirl", "NudeBath", "SensualDesi"],
+    views: "6.2k"
+  },
+  {
+    title: "Hot Indian Desi Girl Nude Shower in Bath  💦🔥",
+    url: "https://files.catbox.moe/4w9sn0.mp4",
     thumbnail: "https://files.catbox.moe/zvxnjr.jpg",
     categories: ["Indian", "Desi"],
     hashtags: ["DesiShower", "HotIndianGirl", "NudeBath", "SensualDesi"],
