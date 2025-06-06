@@ -237,7 +237,7 @@ const videos = [
     thumbnail: "https://files.catbox.moe/fiadbm.png",
     categories: ["Brazzers"],
     hashtags: ["threesome"],
-    views: "5.8k"
+    views: "8.2k"
   },
   {
     title: "SHE COULDN’T CONTAIN HER EXCITEMENT AT THE TRIP",
