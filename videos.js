@@ -1,26 +1,18 @@
 const videos = [
   {
-    title: "Hot Indian Desi Girl Nude Shower in Bath  💦🔥",
+    title: "Hot Indian Desi Girl Nude Shower in Bath 💦🔥",
     url: "https://files.catbox.moe/4w9sn0.mp4",
     thumbnail: "https://files.catbox.moe/2i15za.jpg",
     categories: ["Indian", "Desi"],
-    hashtags: ["DesiShower", "HotIndianGirl", "NudeBath", "SensualDesi"],
+    hashtags: ["desi-shower", "hot-indian-girl", "nude-bath", "sensual-desi"],
     views: "6.2k"
   },
   {
-    title: "Hot Indian Desi Girl Nude Shower in Bath  💦🔥",
-    url: "https://files.catbox.moe/4w9sn0.mp4",
-    thumbnail: "https://files.catbox.moe/zvxnjr.jpg",
-    categories: ["Indian", "Desi"],
-    hashtags: ["DesiShower", "HotIndianGirl", "NudeBath", "SensualDesi"],
-    views: "6.2k"
-  },
-  {
-    title: "Hot Indian Desi Girl Nude Shower in Bath  💦🔥",
+    title: "Hot Indian Desi Girl Nude Shower in Bath 💦🔥",
     url: "https://files.catbox.moe/596klz.mp4",
     thumbnail: "https://files.catbox.moe/ah5m5l.jpg",
     categories: ["Indian", "Desi"],
-    hashtags: ["DesiShower", "NudeBath", "HotDesi", "IndianErotica"],
+    hashtags: ["desi-shower", "nude-bath", "hot-desi", "indian-erotica"],
     views: "3.2k"
   },
   {
@@ -28,7 +20,7 @@ const videos = [
     url: "https://files.catbox.moe/1k2e9c.mp4",
     thumbnail: "https://files.catbox.moe/0b18xx.png",
     categories: ["Indian"],
-    hashtags: ["HotIndianGirl", "SoloPlay", "RawDesi", "SensualVibes"],
+    hashtags: ["hot-indian-girl", "solo-play", "raw-desi", "sensual-vibes"],
     views: "5.2k"
   },
   {
@@ -36,7 +28,7 @@ const videos = [
     url: "https://files.catbox.moe/aalfkm.mp4",
     thumbnail: "https://files.catbox.moe/fgvoc7.png",
     categories: ["Indian"],
-    hashtags: ["DesiStriptease", "SareeToNude", "BhabhiReveal", "IndianSeduction"],
+    hashtags: ["desi-striptease", "saree-to-nude", "bhabhi-reveal", "indian-seduction"],
     views: "4.8k"
   },
   {
@@ -44,7 +36,7 @@ const videos = [
     url: "https://files.catbox.moe/0bdccn.mp4",
     thumbnail: "https://files.catbox.moe/cmnn8l.png",
     categories: ["Indian"],
-    hashtags: ["AfterWorkStrip", "DesiBhabhi", "OfficeToNude", "IndianLust"],
+    hashtags: ["after-work-strip", "desi-bhabhi", "office-to-nude", "indian-lust"],
     views: "6.1k"
   },
   {
@@ -52,7 +44,7 @@ const videos = [
     url: "https://files.catbox.moe/2n8v4v.mp4",
     thumbnail: "https://files.catbox.moe/mo5mqz.png",
     categories: ["Indian"],
-    hashtags: ["SecretPleasure", "DesiBhabhi", "HotPassion", "IndianErotica"],
+    hashtags: ["secret-pleasure", "desi-bhabhi", "hot-passion", "indian-erotica"],
     views: "3.9k"
   },
   {
@@ -60,7 +52,7 @@ const videos = [
     url: "https://files.catbox.moe/3tcbz7.mp4",
     thumbnail: "https://files.catbox.moe/8r4s6e.png",
     categories: ["Indian"],
-    hashtags: ["DesiShower", "NaughtyBhabhi", "WetAndWild", "IndianSeduction"],
+    hashtags: ["desi-shower", "naughty-bhabhi", "wet-and-wild", "indian-seduction"],
     views: "7.3k"
   },
   {
@@ -68,7 +60,7 @@ const videos = [
     url: "https://files.catbox.moe/gvy5p7.mp4",
     thumbnail: "https://files.catbox.moe/y0bg85.png",
     categories: ["Indian"],
-    hashtags: ["LateNightDesi", "SecretDesire", "BhabhiPlay", "RawLust"],
+    hashtags: ["late-night-desi", "secret-desire", "bhabhi-play", "raw-lust"],
     views: "4.5k"
   },
   {
@@ -76,7 +68,7 @@ const videos = [
     url: "https://files.catbox.moe/ec0kn1.mp4",
     thumbnail: "https://files.catbox.moe/777slr.png",
     categories: ["Indian"],
-    hashtags: ["MorningTease", "DesiBhabhi", "SteamyDesi", "IndianSeduction"],
+    hashtags: ["morning-tease", "desi-bhabhi", "steamy-desi", "indian-seduction"],
     views: "5.6k"
   },
   {
@@ -84,7 +76,7 @@ const videos = [
     url: "https://files.catbox.moe/7ysqg9.mp4",
     thumbnail: "https://files.catbox.moe/f8s0ln.png",
     categories: ["Indian"],
-    hashtags: ["NighttimeDesi", "BhabhiFantasy", "SultrySeduction", "DesiErotica"],
+    hashtags: ["nighttime-desi", "bhabhi-fantasy", "sultry-seduction", "desi-erotica"],
     views: "3.7k"
   },
   {
@@ -92,7 +84,7 @@ const videos = [
     url: "https://files.catbox.moe/pq49y6.mp4",
     thumbnail: "https://files.catbox.moe/tviufy.png",
     categories: ["Indian"],
-    hashtags: ["SexyDesiGirl", "SoloPlay", "BedroomFun", "DesiTemptation"],
+    hashtags: ["sexy-desi-girl", "solo-play", "bedroom-fun", "desi-temptation"],
     views: "6.4k"
   },
   {
@@ -100,7 +92,7 @@ const videos = [
     url: "https://files.catbox.moe/n23dmt.mp4",
     thumbnail: "https://files.catbox.moe/pbnr69.png",
     categories: ["Indian"],
-    hashtags: ["PillowRide", "HornyBhabhi", "WetAndWild", "DesiSolo"],
+    hashtags: ["pillow-ride", "horny-bhabhi", "wet-and-wild", "desi-solo"],
     views: "5.9k"
   },
   {
@@ -108,7 +100,7 @@ const videos = [
     url: "https://files.catbox.moe/1rly39.mp4",
     thumbnail: "https://files.catbox.moe/ux75hu.png",
     categories: ["Asian"],
-    hashtags: ["MidnightStrip", "SexyIndianGirl", "SlowTease", "DesiSeduction"],
+    hashtags: ["midnight-strip", "sexy-indian-girl", "slow-tease", "desi-seduction"],
     views: "4.2k"
   },
   {
@@ -116,7 +108,7 @@ const videos = [
     url: "https://files.catbox.moe/pzj4ht.mp4",
     thumbnail: "https://files.catbox.moe/dw9atj.png",
     categories: ["Indian"],
-    hashtags: ["HiddenCam", "DesiBhabhi", "NaughtyPlay", "SecretPleasure"],
+    hashtags: ["hidden-cam", "desi-bhabhi", "naughty-play", "secret-pleasure"],
     views: "6.8k"
   },
   {
@@ -124,7 +116,7 @@ const videos = [
     url: "https://files.catbox.moe/vuxja3.mp4",
     thumbnail: "https://files.catbox.moe/lo56vy.png",
     categories: ["Indian"],
-    hashtags: ["BathroomTease", "HotDesiGirl", "SoapySeduction", "DesiCurves"],
+    hashtags: ["bathroom-tease", "hot-desi-girl", "soapy-seduction", "desi-curves"],
     views: "5.1k"
   },
   {
@@ -132,7 +124,7 @@ const videos = [
     url: "https://files.catbox.moe/hxh25x.mp4",
     thumbnail: "https://files.catbox.moe/rsjwfr.png",
     categories: ["Indian"],
-    hashtags: ["SlowStrip", "SexyBhabhi", "FullNude", "DesiTease"],
+    hashtags: ["slow-strip", "sexy-bhabhi", "full-nude", "desi-tease"],
     views: "7.0k"
   },
   {
@@ -140,31 +132,15 @@ const videos = [
     url: "https://files.catbox.moe/svx2gx.mp4",
     thumbnail: "https://files.catbox.moe/i0cnkm.png",
     categories: ["Indian"],
-    hashtags: ["HotIndianGirl", "CurveShow", "RawSeduction", "DesiErotica"],
+    hashtags: ["hot-indian-girl", "curve-show", "raw-seduction", "desi-erotica"],
     views: "4.9k"
-  },
-  {
-    title: "Desi Bhabhi’s Morning Tease – Sensual & Playful Start to the Day! ☀️🔥",
-    url: "https://files.catbox.moe/ec0kn1.mp4",
-    thumbnail: "https://files.catbox.moe/uy7gp8.png",
-    categories: ["Indian"],
-    hashtags: ["MorningTease", "DesiBhabhi", "SensualPlay", "IndianStart"],
-    views: "5.4k"
-  },
-  {
-    title: "Horny Desi Bhabhi Rides Her Pillow – Wet & Wild Solo Heat! 🛏️💦🔥",
-    url: "https://files.catbox.moe/n23dmt.mp4",
-    thumbnail: "https://files.catbox.moe/xi25rg.png",
-    categories: ["Indian"],
-    hashtags: ["PillowRide", "HornyBhabhi", "WetAndWild", "DesiLust"],
-    views: "6.3k"
   },
   {
     title: "Sexy Desi Girl’s Naughty Bedroom Dance – Temptation in Motion! 💃🔥",
     url: "https://files.catbox.moe/jr22gd.mp4",
     thumbnail: "https://files.catbox.moe/wzzrg8.png",
     categories: ["Indian"],
-    hashtags: ["DesiDance", "BedroomTease", "SexyDesi", "IndianTemptation"],
+    hashtags: ["desi-dance", "bedroom-tease", "sexy-desi", "indian-temptation"],
     views: "4.6k"
   },
   {
@@ -172,7 +148,7 @@ const videos = [
     url: "https://files.catbox.moe/ky8p68.mp4",
     thumbnail: "https://files.catbox.moe/dk5jir.png",
     categories: ["Indian"],
-    hashtags: ["SecretStrip", "DesiBhabhi", "SlowTease", "SensualUndress"],
+    hashtags: ["secret-strip", "desi-bhabhi", "slow-tease", "sensual-undress"],
     views: "5.8k"
   },
   {
@@ -180,7 +156,7 @@ const videos = [
     url: "https://files.catbox.moe/o9xkq4.mp4",
     thumbnail: "https://files.catbox.moe/dgnlu3.png",
     categories: ["Indian"],
-    hashtags: ["HotIndianGirl", "BedroomSecrets", "RawDesire", "DesiSeduction"],
+    hashtags: ["hot-indian-girl", "bedroom-secrets", "raw-desire", "desi-seduction"],
     views: "6.0k"
   },
   {
@@ -188,7 +164,7 @@ const videos = [
     url: "https://files.catbox.moe/vfuqel.mp4",
     thumbnail: "https://files.catbox.moe/alqzo8.png",
     categories: ["Indian"],
-    hashtags: ["SareeSeduction", "DesiGirl", "WildTease", "IndianTemptation"],
+    hashtags: ["saree-seduction", "desi-girl", "wild-tease", "indian-temptation"],
     views: "5.3k"
   },
   {
@@ -196,7 +172,7 @@ const videos = [
     url: "https://files.catbox.moe/9iz6cq.mp4",
     thumbnail: "https://files.catbox.moe/ik094o.jpg",
     categories: ["Indian"],
-    hashtags: ["HornyBhabhi", "DesiSolo", "RawLust", "CaughtOnCam"],
+    hashtags: ["horny-bhabhi", "desi-solo", "raw-lust", "caught-on-cam"],
     views: "6.5k"
   },
   {
@@ -204,7 +180,7 @@ const videos = [
     url: "https://files.catbox.moe/2bkwki.mp4",
     thumbnail: "https://files.catbox.moe/mqby2g.png",
     categories: ["Indian"],
-    hashtags: ["BathStrip", "WetDesi", "NakedBliss", "ShowerTease"],
+    hashtags: ["bath-strip", "wet-desi", "naked-bliss", "shower-tease"],
     views: "4.7k"
   },
   {
@@ -212,87 +188,87 @@ const videos = [
     url: "https://files.catbox.moe/ty47yy.mp4",
     thumbnail: "https://files.catbox.moe/j0npcl.png",
     categories: ["Indian"],
-    hashtags: ["SlowUndress", "DesiGirl", "FullNude", "IndianTease"],
+    hashtags: ["slow-undress", "desi-girl", "full-nude", "indian-tease"],
     views: "5.5k"
   },
   {
     title: "This hotel room smelled of dick and wet pussy all night long",
     url: "https://files.catbox.moe/4l4mh5.mp4",
     thumbnail: "https://files.catbox.moe/dcdqz8.png",
-    categories: [ "Brazzers"],
-    hashtags: ["Amateur porn", "Hardcore"],
+    categories: ["Brazzers"],
+    hashtags: ["amateur-porn", "hardcore"],
     views: "7.5k"
   },
   {
-  title: "Bella is a stepsister any stepbrother could ever dream of",
-  url: "https://files.catbox.moe/z0ig0s.mp4", // Placeholder, please provide actual URL
-  thumbnail: "https://files.catbox.moe/tkxz24.png", // Placeholder, please provide actual thumbnail
-  categories: ["Brazzers"], // Assumed, as "Brazzer" isn’t in original categories
-  hashtags: ["Black Cocks", "Huge cocks", "Stepsister Stepbrother", "Young 18 year old"],
-  views: "5.8k" // Assumed, as no views provided
-},
-{
-  title: "Sexy blonde hooked up with a gorgeous fuckboy and had sensational anal sex",
-  url: "https://files.catbox.moe/idzjb5.mp4",
-  thumbnail: "https://files.catbox.moe/0goda1.jpg",
-  categories: ["Vixen"], // Assumed, as "TushyRaw" isn’t in original categories
-  hashtags: ["Anal sex"],
-  views: "3.7k" // Assumed, as no views provided
-},
-{
-  title: "The second date grew into steamy public sex with a kinky chick",
-  url: "https://files.catbox.moe/afn4mh.mp4", // Placeholder, please provide actual URL
-  thumbnail: "https://files.catbox.moe/mw1fzd.png", // Placeholder, please provide actual thumbnail
-  categories: ["Vixen"], // Assumed, as "Deeeper" isn’t in original categories
-  hashtags: ["Hot Girls", "Young 18 year old"],
-  views: "4.7k" // Assumed, as no views provided
-},
-{
-  title: "24 Hours",
-  url: "https://files.catbox.moe/1defn5.mp4",
-  thumbnail: "https://files.catbox.moe/epwbfb.png",
-  categories: ["Vixen"], // Assumed, as no category provided
-  hashtags: ["Threesome", "Sexy Girls", "Hardcore"],
-  views: "7.2k" // Assumed, as no views provided
-},
-{
-  title: "This cleaner didn’t expect a threesome as a part of her job",
-  url: "https://files.catbox.moe/twmh5i.mp4",
-  thumbnail: "https://files.catbox.moe/fiadbm.png",
-  categories: ["Brazzers"],
-  hashtags: ["Threesome"],
-  views: "5.8k"
-},
-{
-  title: "SHE COULDN’T CONTAIN HER EXCITEMENT AT THE TRIP",
-  url: "https://files.catbox.moe/8tqjpa.mp4",
-  thumbnail: "https://files.catbox.moe/8x0og0.png",
-  categories: ["Vixen"],
-  hashtags: ["Sneaky sex", "Hardcore", "Anal Sex"],
-  views: "4.9k"
-},
-{
-  title: "Naughty nurse takes care of her patient’s hard cock",
-  url: "https://files.catbox.moe/leivs9.mp4",
-  thumbnail: "https://files.catbox.moe/prszz0.png",
-  categories: ["Brazzers"],
-  hashtags: ["Anal Sex", "Young 18 year old"],
-  views: "6.3k"
-},
-{
-  title: "Spoiled rich girl spends her days excitedly engaging in the sexual games",
-  url: "https://files.catbox.moe/otw0qt.mp4",
-  thumbnail: "https://files.catbox.moe/1b1f7x.png",
-  categories: ["Vixen"],
-  hashtags: ["Lesbians"],
-  views: "5.4k"
-},
-{
-  title: "Cock-hungry nymphos find the perfect guy to ravage them in a threesome",
-  url: "https://files.catbox.moe/kwu0vd.mp4",
-  thumbnail: "https://files.catbox.moe/a7lf34.jpg",
-  categories: ["Brazzers"],
-  hashtags: [ "Threesome", "Sneaky sex"],
-  views: "7.8k"
-}  
+    title: "Bella is a stepsister any stepbrother could ever dream of",
+    url: "https://files.catbox.moe/z0ig0s.mp4", // Placeholder, verify actual URL
+    thumbnail: "https://files.catbox.moe/tkxz24.png", // Placeholder, verify actual thumbnail
+    categories: ["Brazzers"],
+    hashtags: ["black-cocks", "huge-cocks", "stepsister-stepbrother", "young-18-year-old"],
+    views: "5.8k"
+  },
+  {
+    title: "Sexy blonde hooked up with a gorgeous fuckboy and had sensational anal sex",
+    url: "https://files.catbox.moe/idzjb5.mp4",
+    thumbnail: "https://files.catbox.moe/0goda1.jpg",
+    categories: ["Vixen"],
+    hashtags: ["anal-sex"],
+    views: "3.7k"
+  },
+  {
+    title: "The second date grew into steamy public sex with a kinky chick",
+    url: "https://files.catbox.moe/afn4mh.mp4", // Placeholder, verify actual URL
+    thumbnail: "https://files.catbox.moe/mw1fzd.png", // Placeholder, verify actual thumbnail
+    categories: ["Vixen"],
+    hashtags: ["hot-girls", "young-18-year-old"],
+    views: "4.7k"
+  },
+  {
+    title: "24 Hours",
+    url: "https://files.catbox.moe/1defn5.mp4",
+    thumbnail: "https://files.catbox.moe/epwbfb.png",
+    categories: ["Vixen"],
+    hashtags: ["threesome", "sexy-girls", "hardcore"],
+    views: "7.2k"
+  },
+  {
+    title: "This cleaner didn’t expect a threesome as a part of her job",
+    url: "https://files.catbox.moe/twmh5i.mp4",
+    thumbnail: "https://files.catbox.moe/fiadbm.png",
+    categories: ["Brazzers"],
+    hashtags: ["threesome"],
+    views: "5.8k"
+  },
+  {
+    title: "SHE COULDN’T CONTAIN HER EXCITEMENT AT THE TRIP",
+    url: "https://files.catbox.moe/8tqjpa.mp4",
+    thumbnail: "https://files.catbox.moe/8x0og0.png",
+    categories: ["Vixen"],
+    hashtags: ["sneaky-sex", "hardcore", "anal-sex"],
+    views: "4.9k"
+  },
+  {
+    title: "Naughty nurse takes care of her patient’s hard cock",
+    url: "https://files.catbox.moe/leivs9.mp4",
+    thumbnail: "https://files.catbox.moe/prszz0.png",
+    categories: ["Brazzers"],
+    hashtags: ["anal-sex", "young-18-year-old"],
+    views: "6.3k"
+  },
+  {
+    title: "Spoiled rich girl spends her days excitedly engaging in the sexual games",
+    url: "https://files.catbox.moe/otw0qt.mp4",
+    thumbnail: "https://files.catbox.moe/1b1f7x.png",
+    categories: ["Vixen"],
+    hashtags: ["lesbians"],
+    views: "5.4k"
+  },
+  {
+    title: "Cock-hungry nymphos find the perfect guy to ravage them in a threesome",
+    url: "https://files.catbox.moe/kwu0vd.mp4",
+    thumbnail: "https://files.catbox.moe/a7lf34.jpg",
+    categories: ["Brazzers"],
+    hashtags: ["threesome", "sneaky-sex"],
+    views: "7.8k"
+  }
 ];
